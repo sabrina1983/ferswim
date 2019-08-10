@@ -1,16 +1,20 @@
-<nav role="navigation">
-        <div id="menuToggle">
-        <input type="checkbox" />
-        <span></span>
-        <span></span>
-        <span></span>
-        <ul id="menu" class="navlink">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Preguntas</a></li>
-            <li class="mainLogo"><a href="index.php"><img src="img/logo.png" alt=""></a></li>
-            <li><a href="#">Registrate</a></li>
-            <li><a href="#">Login</a></li>
+<body>
+<nav class="fixed-top">
+        <ul class="navlinks">
+            <li><a href="index.php">Home</a></li>
+            <li><a href="preguntas.php">Preguntas</a></li>
+            <li><a href="index.php"><img src="img/logo.png" alt=""></a></li>
+            <li><a href="registro.php">Registrate</a></li>
+            <li><a href="login.php">Login</a></li>
         </ul>
+        <div class="logo">
+            <img src="img/logo.png" alt=""></a>
         </div>
-
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
     </nav>
+    <script src="/js/nav.js"></script>
+</body>
