@@ -1,5 +1,5 @@
 <body>
-    <div class="flex-container parallax">
+    <div class="flex-container bd-example">
       <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
         <ol class="carousel-indicators">
           <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
@@ -8,21 +8,21 @@
         </ol>
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="img/bg-1.png" class="d-block w-100" alt="...">
+        <img src="/img/bg-1.png" class="d-block w-100" alt="...">
         <div class="carousel-caption d-none d-md-block">
           <h5>#1#</h5>
           <p>Primer ejemplo.</p>
         </div>
       </div>
       <div class="carousel-item">
-        <img src="img/bg-2.png" class="d-block w-100" alt="...">
+        <img src="/img/bg-2.png" class="d-block w-100" alt="...">
         <div class="carousel-caption d-none d-md-block">
           <h5>#2#</h5>
           <p>Segundo ejemplo.</p>
         </div>
       </div>
       <div class="carousel-item">
-        <img src="img/bg-3.png" class="d-block w-100" alt="...">
+        <img src="/img/bg-3.png" class="d-block w-100" alt="...">
         <div class="carousel-caption d-none d-md-block">
           <h5>#3#</h5>
           <p>Tercer ejemplo.</p>
