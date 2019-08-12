@@ -1,6 +1,6 @@
 @extends('layouts/master')
 @section('content')
-<div class="flex-container">
+<!--<div class="flex-container">
     <div class="main">
       <section class="sin-carousel">
         <article class="titulo">
@@ -39,5 +39,25 @@
       </section>
       </section>
     </div>
+  </div>-->
+  <div class="">
+    <table class="table">
+      <thead>
+        <tr>
+          <th scope="col">Pregunta</th>
+          <th scope="col">Respuesta</th>
+        </tr>
+      </thead>
+      <tbody>
+          <?php foreach ($preguntas as $key => $value):?>
+            <tr>
+
+              <td><?=$value["question"];?></td>
+              <td><?=$value["answer"];?></td>
+              
+            </tr>
+          <?php endforeach;?>
+      </tbody>
   </div>
+</div>
   @endsection
