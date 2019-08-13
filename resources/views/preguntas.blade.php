@@ -40,7 +40,7 @@
       </section>
     </div>
   </div>-->
-  <div class="">
+  <!--<div class="">
     <table class="table">
       <thead>
         <tr>
@@ -59,5 +59,18 @@
           <?php endforeach;?>
       </tbody>
   </div>
-</div>
-  @endsection
+</div>-->
+<h3>Preguntas frecuentes</h3>
+    <ul>
+        @forelse ($preguntas as $pregunta)
+        <li>
+            {{$pregunta->question}}
+        </li>
+        <li>
+            {{$pregunta->answer}}
+        </li>
+        @empty
+        <p>No hay preguntas para mostrar</p>    
+        @endforelse
+    </ul>
+@endsection

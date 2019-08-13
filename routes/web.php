@@ -19,6 +19,10 @@ Route::get('/preguntas', 'preguntasController@list');
 //listado de preguntas y respuestas.
 Route::get('/products', 'ProductsController@list');
 //listado de productos.
+Route::get('/product/{id}', 'ProductsController@detail');
+//detalle de producto.
+Route::get('/product_cat/{category_id}', 'ProductsController@cat');
+//vista de productos por categoria.
 Route::get('/productDetail', 'ProductDetailController@list');
 Route::get('/cart', 'CartController@list');
 // carrito de compras
