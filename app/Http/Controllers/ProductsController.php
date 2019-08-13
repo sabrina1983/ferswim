@@ -38,4 +38,19 @@ class ProductsController extends Controller
 
     //    return view('productCategories', $vac);
     //}
+
+    public function add(Request $req) {
+        
+        $newProduct = new Product();
+        
+        $newProduct->name = $req['name'];
+        $newProduct->unit_price = $req['unit_price'];
+        $newProduct->unit_cost = $req['unit_cost'];
+        $newProduct->category_id = $req['category_id'];
+        $newProduct->description = $req['description'];
+
+        $newProduct->save();
+        
+        return redirect('/products');
+    }
 }

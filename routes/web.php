@@ -24,6 +24,7 @@ Route::get('/product/{id}', 'ProductsController@detail');
 Route::get('/product_cat/{category_id}', 'ProductsController@cat');
 //vista de productos por categoria.
 Route::get('/productDetail', 'ProductDetailController@list');
+//vista de detalle de producto.
 Route::get('/cart', 'CartController@list');
 // carrito de compras
 
@@ -34,7 +35,12 @@ Route::get('/products', 'ProductsController@list');
 // ruta de edicion de productos. Lo que se modifique aca deberia directamente influir sobre la vista de la lista de productos.
 Route::get('/users', 'UsersController@list');
 // ruta de edicion de usuarios.
-
+Route::get ('/addProduct', function(){
+    return view('addProduct');
+});
+//ruta de la vista para mostrar el formulario para agregar un producto
+Route::post ('/addProduct', 'ProductsController@add');
+//ruta POST de la vista para mostrar el formulario para agregar un producto
 //Route::get('/', function () {
 //    return view('home');
 //});
