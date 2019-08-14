@@ -6,8 +6,7 @@
     </div>
     <div class="">
       <p><a href="addQuestion"><i class="fas fa-plus-circle">Agregar pregunta</i></a></p>
-  </div>
-      <div class="">
+    <div class="">
         <table class="table table-borderless table-hover">
           <thead class="thead-dark">
             <tr>
@@ -41,5 +40,7 @@
               <?php endforeach;?>
           </tbody>
       </div>
+    </div>
+      
   </div>
   @endsection
