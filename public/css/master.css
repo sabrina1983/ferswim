@@ -91,6 +91,31 @@
   .fa-whatsapp{
     color: green;
   }
+
+  .fas{
+    text-decoration: none;
+    color: #1A1A1A;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  .productList{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .productList ul{
+    width: 90%;
+    padding: 5%;
+  }
+
+  .productList ul li{
+    justify-content: stretch;
+  }
+
+
   
   .container{
     padding-top: 20vh;

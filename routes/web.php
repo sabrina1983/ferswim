@@ -31,6 +31,12 @@ Route::get('/cart', 'CartController@list');
 // Rutas para las vistas de usuario administrador
 Route::get('/faq', 'faqController@list');
 // ruta de edicion de preguntas frecuentes. Lo que se modifique aca debera directamente influir sobre la vista preguntas
+Route::get ('/addQuestion', function(){
+    return view('addQuestion');
+});
+//ruta GET que redirige al formulario para agregar una pregunta al listado de preguntas frecuentes.
+Route::post ('/addQuestion', 'faqController@add');
+//ruta POST de la vista para mostrar el formulario para agregar una pregunta a la vista de pŕeguntas y respuestas
 Route::get('/products', 'ProductsController@list');
 // ruta de edicion de productos. Lo que se modifique aca deberia directamente influir sobre la vista de la lista de productos.
 Route::get('/users', 'UsersController@list');

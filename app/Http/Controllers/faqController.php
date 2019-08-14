@@ -19,4 +19,16 @@ class faqController extends Controller
 
         return view ('faq', $vac);
     }
+
+    public function add(Request $req) {
+        
+        $newPregunta = new Pregunta();
+        
+        $newPregunta->question = $req['question'];
+        $newPregunta->answer = $req['answer'];
+
+        $newPregunta->save();
+        
+        return redirect('/faq');
+    }
 }

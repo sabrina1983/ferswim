@@ -4,10 +4,12 @@
     <div class="">
       <h1>Preguntas frecuentes</h1>
     </div>
-
+    <div class="">
+      <p><a href="addQuestion"><i class="fas fa-plus-circle">Agregar pregunta</i></a></p>
+  </div>
       <div class="">
-        <table class="table">
-          <thead>
+        <table class="table table-borderless table-hover">
+          <thead class="thead-dark">
             <tr>
               <th scope="col">#</th>
               <th scope="col">Pregunta</th>
