@@ -20,7 +20,7 @@
     </div>
 </div>-->
 <div class="main">
-<section>
+<!--<section>
   <article>
     <p>Articulos Destacados</p>
   </article>
@@ -48,7 +48,135 @@
 </section>
 </section>
 </div>
-</div>
+</div>-->
+
+@section('content')
+<div class="row prodhome">
+  <div class="col-sm-6 col-md-4">
+      <div class="thumbnail">
+          <img src="/img/malla.jpg"  alt="..." class="img-responsive">
+          <div class="caption">
+              <h3>Product title</h3>
+              <p class="description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                      Omnis amet ipsam debitis magni officia fugit veniam eos voluptate minus, 
+                      tempora reiciendis odio alias et, aut laborum accusantium 
+                      dolor asperiores esse.</p>
+             <div class="clearfix">
+                   <div class="pull-right price">$1.500</div>
+                   <a href="#" class="btn btn-success pull-right" role="button">Agregar al carrito</a>
+                 </div>
+            </div>
+         </div>
+    </div>
+
+<div class="col-sm-6 col-md-4">
+      <div class="thumbnail">
+          <img src="/img/beach.jpg"  alt="..." class="img-responsive">
+          <div class="caption">
+              <h3>Product title</h3>
+              <p class="description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+     Omnis amet ipsam debitis magni officia fugit veniam eos voluptate minus, 
+     tempora reiciendis odio alias et, aut laborum accusantium 
+     dolor asperiores esse.</p>
+     
+                 <div class="clearfix">
+                 <div class="pull-right price">$1.500</div>
+                   <a href="#" class="btn btn-success pull-right" role="button">Agregar al carrito</a>
+        
+          </div>
+          
+          </div>
+
+      </div>
+  </div>
+
+  <div class="col-sm-6 col-md-4">
+      <div class="thumbnail">
+          <img src="/img/bikini-vintage.jpg"  alt="..." class="img-responsive">
+          <div class="caption">
+              <h3>Product title</h3>
+              <p class="description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+     Omnis amet ipsam debitis magni officia fugit veniam eos voluptate minus, 
+     tempora reiciendis odio alias et, aut laborum accusantium 
+     dolor asperiores esse.</p>
+     
+                 <div class="clearfix">
+                 <div class="pull-right price">$1.500</div>
+                   <a href="#" class="btn btn-success pull-right" role="button">Agregar al carrito</a>
+        
+          </div>
+          
+          </div>
+
+      </div>
+  </div>
+
+  <div class="col-sm-6 col-md-4">
+      <div class="thumbnail">
+          <img src="/img/malla-entera.jpg"  alt="..." class="img-responsive">
+          <div class="caption">
+              <h3>Product title</h3>
+              <p class="description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+     Omnis amet ipsam debitis magni officia fugit veniam eos voluptate minus, 
+     tempora reiciendis odio alias et, aut laborum accusantium 
+     dolor asperiores esse.</p>
+     
+                 <div class="clearfix">
+                 <div class="pull-right price">$1.500</div>
+                   <a href="#" class="btn btn-success pull-right" role="button">Agregar al carrito</a>
+        
+          </div>
+          
+          </div>
+
+      </div>
+  </div>
+
+  <div class="col-sm-6 col-md-4">
+      <div class="thumbnail">
+          <img src="/img/bikini-azul.png"  alt="..." class="img-responsive">
+          <div class="caption">
+              <h3>Product title</h3>
+              <p class="description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+     Omnis amet ipsam debitis magni officia fugit veniam eos voluptate minus, 
+     tempora reiciendis odio alias et, aut laborum accusantium 
+     dolor asperiores esse.</p>
+     
+                 <div class="clearfix">
+                 <div class="pull-right price">$1.500</div>
+                   <a href="#" class="btn btn-success pull-right" role="button">Agregar al carrito</a>
+        
+          </div>
+          
+          </div>
+
+      </div>
+  </div>
+
+  <div class="col-sm-6 col-md-4">
+      <div class="thumbnail">
+          <img src="/img/women-swimsuit.jpg"  alt="..." class="img-responsive">
+          <div class="caption">
+              <h3>Product title</h3>
+              <p class="description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+     Omnis amet ipsam debitis magni officia fugit veniam eos voluptate minus, 
+     tempora reiciendis odio alias et, aut laborum accusantium 
+     dolor asperiores esse.</p>
+     
+                 <div class="clearfix">
+                 <div class="pull-right price">$1.500</div>
+                   <a href="#" class="btn btn-success pull-right" role="button">Agregar al carrito</a>
+        
+          </div>
+          
+          </div>
+
+      </div>
+  </div>
+
+  </div>
+@endsection
+
 
 <!-- whatsapp -->
 <div class="btn-whatsapp">
